@@ -1,13 +1,15 @@
 import React from 'react'
 
 export default function Career(props) {
+    //styling object for the content of the modal
     const content = {
-        width: "20vw",
-        height: "auto",
-        background: "white" ,
-        padding: "3rem"
-    }
+        width: "30rem",
+        height: "40rem",
+        background: "white",
+        padding: "3rem",
+        overflow: 'scroll' }
     return (
+        // content of the modal
         <div style = {content}><h2>My work so far:</h2>
         <a href = "" download>Download my resume</a>
         <p><h4>From 2020 to 2021:</h4>

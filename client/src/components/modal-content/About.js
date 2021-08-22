@@ -1,13 +1,15 @@
 import React from "react";
 
 export default function About(props) {
+  //styling object for the content of the modal
   const content = {
-    width: "20vw",
-    height: "auto",
+    width: "30rem",
+    height: "40rem",
     background: "white",
     padding: "3rem",
   };
   return (
+    // content of the modal
     <div style={content}>
       <h2>Who am I?</h2>
       <p>
