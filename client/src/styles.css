@@ -1,0 +1,82 @@
+/* styles for main content on page */
+
+.landing-box {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin: auto;
+  top: 23vh;
+  bottom: 20vh;
+  left: 0;
+  right: 0;
+  font-family: "PT Mono", monospace;
+  color: white;
+  text-align: center;
+}
+
+.landing-box h1 {
+  font-family: "PT Mono", monospace;
+  font-size: 6em;
+  text-shadow: 3px 4px #000000b6;
+  margin: 1rem;
+}
+
+.landing-box h2 {
+  font-size: 4em;
+  text-shadow: 3px 3px #0000005b;
+  margin: 1rem;
+}
+
+.landing-box h3 {
+  font-size: 4em;
+  text-shadow: 3px 3px #0000005b;
+  margin: 1rem;
+}
+
+
+/* creating flex box container for buttons */
+.modal-button-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20vh;
+  margin-left: -8vw;
+}
+
+/* individual modal buttons and respective styles */
+.modal-button-flex button {
+  cursor: pointer;
+  border: none;
+  width: 25vw;
+  padding: 0.2em;
+  margin: 0.2em;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  text-shadow: 4px 4px #0000007e;
+  border-radius: 4px;
+  box-shadow: inset 0px 3px 5px rgba(114, 187, 255, 0.5),
+    0px 0px 10px rgba(0, 0, 0, 0.15);
+  background: rgba(2, 0, 36, 0.356);
+  transition: 1s;
+}
+
+.modal-button-flex button:hover {
+  background-position: left;
+  color: rgba(46, 54, 56);
+  background-color: white;
+  box-shadow: inset 0px 3px 5px rgba(255, 255, 255, 1),
+    0px 0px 10px rgba(0, 0, 0, 0.25);
+  text-shadow: none;
+}
+
+.modal-button-flex button:focus {
+  outline: none;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 12vw;
+}
